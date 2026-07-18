@@ -1,4 +1,94 @@
 {
-  "papers": {}
+  "papers": {
+    "doi:10.1177/00222429241298654": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Journal of Marketing",
+      "title": "Retailer Differentiation in Social Media: An Investigation of Firm-Generated Content on Twitter"
+    },
+    "doi:10.1257/aer.20230478": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "American Economic Review",
+      "title": "Data, Competition, and Digital Platforms"
+    },
+    "doi:10.1287/mksc.1040.0103": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Conditioning Prices on Purchase History"
+    },
+    "doi:10.1287/mksc.16.1.60": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Supermarket Competition: The Case of Every Day Low Pricing"
+    },
+    "doi:10.1287/mksc.19.2.127.11805": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Manufacturer-Retailer Channel Interactions and Implications for Channel Power: An Empirical Investigation of Pricing in a Local Market"
+    },
+    "doi:10.1287/mksc.20.3.265.9767": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Quality Segmentation in Spatial Markets: When Does Cannibalization Affect Product Line Design?"
+    },
+    "doi:10.1287/mksc.2016.0984": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "A Video-Based Automated Recommender (VAR) System for Garments"
+    },
+    "doi:10.1287/mksc.2017.1035": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Match Your Own Price? Self-Matching as a Retailer’s Multichannel Pricing Strategy"
+    },
+    "doi:10.1287/mksc.2022.0262": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Self-Preferencing in E-Commerce Marketplaces: The Role of Sponsored Advertising and Private Labels"
+    },
+    "doi:10.1287/mksc.3.4.288": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Marketing Science",
+      "title": "Market Segmentation, Self-Selection, and Product Line Design"
+    },
+    "doi:10.1287/mnsc.1050.0400": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Management Science",
+      "title": "Two-Sided Network Effects: A Theory of Information Product Design"
+    },
+    "doi:10.1287/mnsc.2015.2230": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Management Science",
+      "title": "Agency Selling or Reselling? Channel Structures in Electronic Retailing"
+    },
+    "doi:10.1509/jmkr.40.1.80.19134": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "Journal of Marketing Research",
+      "title": "A Bargaining Theory of Distribution Channels"
+    },
+    "doi:10.2139/ssrn.7002118": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "SSRN",
+      "title": "Algorithmic Segregation: The Problem of Extractive Rent in the Platform Economy"
+    },
+    "doi:10.2139/ssrn.7003058": {
+      "brief_date": "2026-07-18",
+      "first_seen_at": "2026-07-18T12:18:36Z",
+      "source": "SSRN",
+      "title": "Netflix Italia and the Decision of the Court of Rome: Evaluating the \"Justified Reason\" Requirement as a Condition for the Enforceability of Price Variation Clauses in Digital Adhesion Contracts and Lessons for Nigeria"
+    }
+  }
 }
-
