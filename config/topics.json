@@ -1,0 +1,22 @@
+{
+  "minimum_score": 24,
+  "daily_limit": 15,
+  "topics": {
+    "Industrial organization": [
+      "industrial organization", "market power", "competition", "antitrust", "merger", "markup",
+      "firm conduct", "demand estimation", "supply estimation", "auction", "market design",
+      "two-sided market", "two sided market", "network effect", "vertical restraint", "entry and exit"
+    ],
+    "Information & digital economy": [
+      "digital platform", "online platform", "platform economy", "marketplace", "search engine",
+      "algorithmic", "recommender", "information asymmetry", "information design", "data economy",
+      "digital advertising", "ad targeting", "privacy", "e-commerce", "ecommerce"
+    ],
+    "Quantitative marketing": [
+      "quantitative marketing", "consumer choice", "customer choice", "dynamic pricing", "price discrimination",
+      "pricing", "promotion", "advertising", "brand", "retail", "consumer behavior", "purchase behavior",
+      "sales", "customer lifetime value", "marketing mix", "segmentation"
+    ]
+  }
+}
+

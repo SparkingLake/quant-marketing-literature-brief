@@ -1,0 +1,18 @@
+{
+  "journals": [
+    {"name": "American Economic Review", "issn": "1944-7981", "tier": "Econ Top Five"},
+    {"name": "The Quarterly Journal of Economics", "issn": "1531-4650", "tier": "Econ Top Five"},
+    {"name": "Journal of Political Economy", "issn": "1537-534X", "tier": "Econ Top Five"},
+    {"name": "Econometrica", "issn": "1468-0262", "tier": "Econ Top Five"},
+    {"name": "The Review of Economic Studies", "issn": "1467-937X", "tier": "Econ Top Five"},
+    {"name": "Marketing Science", "issn": "1526-548X", "tier": "Marketing"},
+    {"name": "Journal of Marketing", "issn": "1547-7185", "tier": "Marketing"},
+    {"name": "Journal of Marketing Research", "issn": "1547-7193", "tier": "Marketing"},
+    {"name": "Management Science", "issn": "1526-5501", "tier": "Management"}
+  ],
+  "working_paper_prefixes": [
+    {"name": "NBER Working Paper", "prefix": "10.3386", "tier": "Working paper"},
+    {"name": "SSRN", "prefix": "10.2139", "tier": "Working paper"}
+  ]
+}
+
