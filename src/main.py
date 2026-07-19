@@ -66,7 +66,7 @@ def normalized_text(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(plain)).strip()
 
 
-def first_date(record: dict[str, Any]) -> str:
+def first_date(record: dict[str, Any]) -> date | None:
     for field in ("published-online", "published-print", "published", "issued", "created"):
         parts = record.get(field, {}).get("date-parts", [[]])
         if parts and parts[0]:
@@ -75,10 +75,10 @@ def first_date(record: dict[str, Any]) -> str:
                 year = int(values[0])
                 month = int(values[1]) if len(values) > 1 else 1
                 day = int(values[2]) if len(values) > 2 else 1
-                return date(year, month, day).isoformat()
+                return date(year, month, day)
             except (TypeError, ValueError):
                 continue
-    return "Unknown"
+    return None
 
 
 def author_line(record: dict[str, Any]) -> str:
@@ -91,9 +91,9 @@ def author_line(record: dict[str, Any]) -> str:
     return ", ".join(authors[:6]) + (" et al." if len(authors) > 6 else "")
 
 
-def fetch_crossref(route: str, since: date, mailto: str | None) -> list[dict[str, Any]]:
+def fetch_crossref(route: str, since: date, cutoff: date, mailto: str | None) -> list[dict[str, Any]]:
     params = {
-        "filter": f"from-index-date:{since.isoformat()}",
+        "filter": f"from-index-date:{since.isoformat()},from-pub-date:{cutoff.isoformat()}",
         "sort": "indexed",
         "order": "desc",
         "rows": "100",
@@ -114,27 +114,37 @@ def fetch_crossref(route: str, since: date, mailto: str | None) -> list[dict[str
     return payload.get("message", {}).get("items", [])
 
 
-def classify(title: str, abstract: str, topics: dict[str, list[str]]) -> tuple[int, tuple[str, ...], tuple[str, ...]]:
-    haystack = f"{title}\n{abstract}".lower()
+def contains_phrase(text: str, phrase: str) -> bool:
+    """Match a complete phrase, avoiding accidental substring matches."""
+    return re.search(rf"(?<!\w){re.escape(phrase.lower())}(?!\w)", text.lower()) is not None
+
+
+def classify(title: str, abstract: str, topics: dict[str, dict[str, list[str]]]) -> tuple[int, tuple[str, ...], tuple[str, ...]]:
     labels: list[str] = []
     matches: list[str] = []
     score = 0
-    for label, phrases in topics.items():
-        topic_matches = [phrase for phrase in phrases if phrase.lower() in haystack]
-        if topic_matches:
+    for label, rules in topics.items():
+        title_matches = [phrase for phrase in rules["title_anchors"] if contains_phrase(title, phrase)]
+        abstract_matches = [phrase for phrase in rules["abstract_support"] if contains_phrase(abstract, phrase)]
+        # A title anchor is deliberately required: this sacrifices recall for much higher precision.
+        if title_matches:
             labels.append(label)
-            matches.extend(topic_matches[:3])
-            score += 12 + min(len(topic_matches), 4) * 6
+            matches.extend(title_matches[:2])
+            matches.extend(abstract_matches[:2])
+            score += 50 + min(len(title_matches) - 1, 2) * 10 + min(len(abstract_matches), 3) * 3
     return score, tuple(labels), tuple(dict.fromkeys(matches))
 
 
-def make_paper(record: dict[str, Any], source: Source, topics: dict[str, list[str]]) -> Paper | None:
+def make_paper(record: dict[str, Any], source: Source, topics: dict[str, dict[str, list[str]]], cutoff: date) -> Paper | None:
     if record.get("type") not in {None, "journal-article", "report", "posted-content", "proceedings-article"}:
         return None
     doi = str(record.get("DOI", "")).strip().lower()
     title_values = record.get("title") or []
     title = normalized_text(title_values[0] if title_values else "")
     if not doi or not title:
+        return None
+    published = first_date(record)
+    if published is None or published < cutoff:
         return None
     abstract = normalized_text(record.get("abstract", ""))
     score, labels, matches = classify(title, abstract, topics)
@@ -144,7 +154,7 @@ def make_paper(record: dict[str, Any], source: Source, topics: dict[str, list[st
         authors=author_line(record),
         doi=doi,
         url=record.get("URL") or f"https://doi.org/{doi}",
-        published=first_date(record),
+        published=published.isoformat(),
         source=source.name,
         tier=source.tier,
         score=score,
@@ -161,12 +171,20 @@ def brief_path(run_date: date) -> Path:
     return BRIEFS_DIR / f"{run_date:%Y}" / f"{run_date:%m}" / f"{run_date.isoformat()}.md"
 
 
+def years_before(day: date, years: int) -> date:
+    """Return a calendar cutoff, handling February 29 safely."""
+    try:
+        return day.replace(year=day.year - years)
+    except ValueError:
+        return day.replace(year=day.year - years, day=28)
+
+
 def render_brief(run_date: date, papers: list[Paper], scanned: int, since: date) -> str:
     header = [
-        f"# Quant Marketing Literature Brief — {run_date.isoformat()}",
+        f"# Quant Marketing Literature Brief - {run_date.isoformat()}",
         "",
-        f"> Scanned {scanned} new Crossref records indexed since {since.isoformat()}; selected {len(papers)} topical papers.",
-        "> Inclusion is a keyword-based first-pass screen. Open the DOI link to verify the source metadata and paper version.",
+        f"> Scanned {scanned} Crossref records indexed since {since.isoformat()}; selected {len(papers)} papers published within the past five years.",
+        "> A title must contain a high-precision topic term. This workflow does not use an LLM or consume model tokens.",
         "",
     ]
     if not papers:
@@ -174,15 +192,15 @@ def render_brief(run_date: date, papers: list[Paper], scanned: int, since: date)
 
     lines = header
     for index, paper in enumerate(papers, start=1):
-        labels = " · ".join(paper.labels)
+        labels = " / ".join(paper.labels)
         matched = ", ".join(f"`{item}`" for item in paper.matches)
         lines.extend(
             [
                 f"## {index}. [{escape_markdown(paper.title)}]({paper.url})",
                 "",
-                f"- **Source:** {paper.source} · {paper.tier} · metadata date {paper.published}",
+                f"- **Source:** {paper.source} / {paper.tier} / metadata date {paper.published}",
                 f"- **Authors:** {paper.authors}",
-                f"- **Relevance:** {paper.score}/100 · {labels}",
+                f"- **Relevance:** {paper.score}/100 / {labels}",
                 f"- **Matched terms:** {matched}",
                 f"- **DOI:** [{paper.doi}](https://doi.org/{paper.doi})",
                 "",
@@ -203,6 +221,7 @@ def main() -> int:
     sources_config = read_json(CONFIG_DIR / "sources.json")
     topics_config = read_json(CONFIG_DIR / "topics.json")
     since = args.date - timedelta(days=args.lookback_days)
+    cutoff = years_before(args.date, topics_config["publication_lookback_years"])
     mailto = os.getenv("CROSSREF_MAILTO")
     sources: list[Source] = []
     for item in sources_config["journals"]:
@@ -212,7 +231,7 @@ def main() -> int:
 
     all_records: list[tuple[dict[str, Any], Source]] = []
     for source in sources:
-        records = fetch_crossref(source.route, since, mailto)
+        records = fetch_crossref(source.route, since, cutoff, mailto)
         print(f"{source.name}: fetched {len(records)} records")
         all_records.extend((record, source) for record in records)
 
@@ -220,7 +239,7 @@ def main() -> int:
     seen: dict[str, Any] = state.setdefault("papers", {})
     candidates: dict[str, Paper] = {}
     for record, source in all_records:
-        paper = make_paper(record, source, topics_config["topics"])
+        paper = make_paper(record, source, topics_config["topics"], cutoff)
         if not paper or paper.key in seen or paper.score < topics_config["minimum_score"]:
             continue
         existing = candidates.get(paper.key)
