@@ -1,10 +1,22 @@
 {
   "papers": {
+    "doi:10.1093/restud/rdad070": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "The Review of Economic Studies",
+      "title": "How Exporters Grow"
+    },
     "doi:10.1177/00222429241298654": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "Journal of Marketing",
       "title": "Retailer Differentiation in Social Media: An Investigation of Firm-Generated Content on Twitter"
+    },
+    "doi:10.1177/00222437231200807": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Journal of Marketing Research",
+      "title": "Cause-Related Marketing as Sales Promotion"
     },
     "doi:10.1257/aer.20230478": {
       "brief_date": "2026-07-18",
@@ -12,11 +24,35 @@
       "source": "American Economic Review",
       "title": "Data, Competition, and Digital Platforms"
     },
+    "doi:10.1287/mksc.1030.0044": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "Consumer Learning, Brand Loyalty, and Competition"
+    },
     "doi:10.1287/mksc.1040.0103": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "Marketing Science",
       "title": "Conditioning Prices on Purchase History"
+    },
+    "doi:10.1287/mksc.1050.0150": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "An Empirical Study of the Impact of Nonlinear Shipping and Handling Fees on Purchase Incidence and Expenditure Decisions"
+    },
+    "doi:10.1287/mksc.1060.0252": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "How Does Free Riding on Customer Service Affect Competition?"
+    },
+    "doi:10.1287/mksc.1110.0633": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "Gut Liking for the Ordinary: Incorporating Design Fluency Improves Automobile Sales Forecasts"
     },
     "doi:10.1287/mksc.16.1.60": {
       "brief_date": "2026-07-18",
@@ -48,11 +84,29 @@
       "source": "Marketing Science",
       "title": "Match Your Own Price? Self-Matching as a Retailer’s Multichannel Pricing Strategy"
     },
+    "doi:10.1287/mksc.2021.0136": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "A Longitudinal Examination of the Relationship Between National-Level Per Capita Advertising Expenditure and National-Level Life Satisfaction Across 76 Countries"
+    },
     "doi:10.1287/mksc.2022.0262": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "Marketing Science",
       "title": "Self-Preferencing in E-Commerce Marketplaces: The Role of Sponsored Advertising and Private Labels"
+    },
+    "doi:10.1287/mksc.2022.0338": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "Dual Role and Product Featuring Strategy of Digital Platform"
+    },
+    "doi:10.1287/mksc.2024.0879": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Marketing Science",
+      "title": "Advertising Platforms and Privacy"
     },
     "doi:10.1287/mksc.3.4.288": {
       "brief_date": "2026-07-18",
@@ -60,11 +114,23 @@
       "source": "Marketing Science",
       "title": "Market Segmentation, Self-Selection, and Product Line Design"
     },
+    "doi:10.1287/mnsc.1030.0174": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Management Science",
+      "title": "Retailer- vs. Vendor-Managed Inventory and Brand Competition"
+    },
     "doi:10.1287/mnsc.1050.0400": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "Management Science",
       "title": "Two-Sided Network Effects: A Theory of Information Product Design"
+    },
+    "doi:10.1287/mnsc.2013.1771": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Management Science",
+      "title": "The Strategic Value of High-Cost Customers"
     },
     "doi:10.1287/mnsc.2015.2230": {
       "brief_date": "2026-07-18",
@@ -72,11 +138,35 @@
       "source": "Management Science",
       "title": "Agency Selling or Reselling? Channel Structures in Electronic Retailing"
     },
+    "doi:10.1287/mnsc.2017.2796": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Management Science",
+      "title": "Capacity Sharing Between Competitors"
+    },
+    "doi:10.1509/jmkr.38.2.225.18838": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Journal of Marketing Research",
+      "title": "Does Doing Good Always Lead to Doing Better? Consumer Reactions to Corporate Social Responsibility"
+    },
     "doi:10.1509/jmkr.40.1.80.19134": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "Journal of Marketing Research",
       "title": "A Bargaining Theory of Distribution Channels"
+    },
+    "doi:10.1509/jmkr.47.2.215": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Journal of Marketing Research",
+      "title": "Deriving Value from Social Commerce Networks"
+    },
+    "doi:10.1509/jmkr.47.4.612": {
+      "brief_date": "2026-07-19",
+      "first_seen_at": "2026-07-19T04:06:02Z",
+      "source": "Journal of Marketing Research",
+      "title": "Customer Satisfaction Heterogeneity and Shareholder Value"
     },
     "doi:10.2139/ssrn.7002118": {
       "brief_date": "2026-07-18",
