@@ -1,10 +1,40 @@
 {
   "papers": {
+    "doi:10.1086/722517": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Journal of Political Economy",
+      "title": "Bank Market Power and Central Bank Digital Currency: Theory and Quantitative Assessment"
+    },
+    "doi:10.1093/restud/rdac073": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "The Review of Economic Studies",
+      "title": "Price Discrimination in the Information Age: Prices, Poaching, and Privacy with Personalized Targeted Discounts"
+    },
+    "doi:10.1093/restud/rdad037": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "The Review of Economic Studies",
+      "title": "Price Discrimination in International Airline Markets"
+    },
     "doi:10.1093/restud/rdad070": {
       "brief_date": "2026-07-19",
       "first_seen_at": "2026-07-19T04:06:02Z",
       "source": "The Review of Economic Studies",
       "title": "How Exporters Grow"
+    },
+    "doi:10.1177/00222429231190021": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Journal of Marketing",
+      "title": "Tales of Two Channels: Digital Advertising Performance Between AI Recommendation and User Subscription Channels"
+    },
+    "doi:10.1177/00222429241280224": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Journal of Marketing",
+      "title": "Framing of Differences: Visual Product Frames Reduce Consumer Choice Deferrals"
     },
     "doi:10.1177/00222429241298654": {
       "brief_date": "2026-07-18",
@@ -90,6 +120,12 @@
       "source": "Marketing Science",
       "title": "A Longitudinal Examination of the Relationship Between National-Level Per Capita Advertising Expenditure and National-Level Life Satisfaction Across 76 Countries"
     },
+    "doi:10.1287/mksc.2021.1323": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Marketing Science",
+      "title": "The Perils of Personalized Pricing with Network Effects"
+    },
     "doi:10.1287/mksc.2022.0262": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
@@ -101,6 +137,18 @@
       "first_seen_at": "2026-07-19T04:06:02Z",
       "source": "Marketing Science",
       "title": "Dual Role and Product Featuring Strategy of Digital Platform"
+    },
+    "doi:10.1287/mksc.2022.1355": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Marketing Science",
+      "title": "Superior Knowledge, Price Discrimination, and Customer Inspection"
+    },
+    "doi:10.1287/mksc.2022.1395": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Marketing Science",
+      "title": "Consumer Fairness Concerns and Dynamic Pricing in a Channel"
     },
     "doi:10.1287/mksc.2024.0879": {
       "brief_date": "2026-07-19",
@@ -144,6 +192,12 @@
       "source": "Management Science",
       "title": "Capacity Sharing Between Competitors"
     },
+    "doi:10.1287/mnsc.2021.4071": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "Management Science",
+      "title": "Meta Dynamic Pricing: Transfer Learning Across Experiments"
+    },
     "doi:10.1509/jmkr.38.2.225.18838": {
       "brief_date": "2026-07-19",
       "first_seen_at": "2026-07-19T04:06:02Z",
@@ -179,6 +233,12 @@
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "SSRN",
       "title": "Netflix Italia and the Decision of the Court of Rome: Evaluating the \"Justified Reason\" Requirement as a Condition for the Enforceability of Price Variation Clauses in Digital Adhesion Contracts and Lessons for Nigeria"
+    },
+    "doi:10.3386/w35467": {
+      "brief_date": "2026-07-20",
+      "first_seen_at": "2026-07-20T03:04:35Z",
+      "source": "NBER Working Paper",
+      "title": "Women in the Platform Economy: Descriptive Evidence from Drivers in India and Indonesia"
     }
   }
 }
