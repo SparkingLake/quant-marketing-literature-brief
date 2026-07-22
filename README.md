@@ -1,6 +1,6 @@
 # Quant Marketing Literature Brief
 
-这是一个每天自动更新的文献简报工具，追踪 Econ Top Five、Marketing Science、Journal of Marketing、Journal of Marketing Research、Management Science，以及 NBER 与 SSRN working papers。
+这是一个每天自动更新的文献简报工具，追踪 Econ Top Five、Marketing Science、Journal of Marketing、Journal of Marketing Research、Management Science，以及 NBER 与 SSRN 中关于pricing、digital platform、information economics等话题的 quantitaive marketing 与 IO 领域的papers。
 
 ## 筛选规则
 
@@ -12,11 +12,13 @@
 
 ## 不使用模型，不消耗 token
 
-每日工作流只运行 Python 标准库代码和 Crossref 元数据查询；它**不调用任何 LLM 或 OpenAI API**，因此模型 token 消耗为 **0**。GitHub Actions 只会消耗少量运行时间和网络请求。项目也不会下载论文 PDF 或保存全文。
+每日工作流只运行 Python 标准库代码和 Crossref 元数据查询；它**不调用任何 LLM**，因此模型 token 消耗为 **0**。GitHub Actions 只会消耗少量运行时间和网络请求。项目也不会下载论文 PDF 或保存全文。
 
 ## 每日运行
 
-`.github/workflows/daily.yml` 会在约北京时间 08:37 运行，也可以从 GitHub 的 **Actions** 页面手动运行。它会把生成的 Markdown 简报与去重状态提交回 `main`。
+`.github/workflows/daily.yml` 定在北京时间 08:37 运行，也可以从 GitHub 的 **Actions** 页面手动运行。它会把生成的 Markdown 简报与去重状态提交回 `main`。
+
+注意事项：受限于GitHub Actions的资源分配，通常会晚于设定时间推送，但一般在北京时间中午12点左右会完成当日推送。
 
 可选：在仓库的 **Settings → Secrets and variables → Actions** 中添加 `CROSSREF_MAILTO`（联系邮箱），作为 Crossref 请求的礼貌池标识。它不是必需项。
 
