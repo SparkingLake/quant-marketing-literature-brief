@@ -24,6 +24,18 @@
       "source": "The Review of Economic Studies",
       "title": "How Exporters Grow"
     },
+    "doi:10.1093/restud/rdad090": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "The Review of Economic Studies",
+      "title": "Market Power in Coal Shipping and Implications for U.S. Climate Policy"
+    },
+    "doi:10.1177/00222429221119086": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Journal of Marketing",
+      "title": "Choice Architecture for Healthier Insurance Decisions: Ordering and Partitioning Together Can Improve Consumer Choice"
+    },
     "doi:10.1177/00222429231190021": {
       "brief_date": "2026-07-20",
       "first_seen_at": "2026-07-20T03:04:35Z",
@@ -114,6 +126,12 @@
       "source": "Marketing Science",
       "title": "Match Your Own Price? Self-Matching as a Retailer’s Multichannel Pricing Strategy"
     },
+    "doi:10.1287/mksc.2020.0214": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Marketing Science",
+      "title": "Dynamic Pricing and Organic Waste Bans: A Study of Grocery Retailers’ Incentives to Reduce Food Waste"
+    },
     "doi:10.1287/mksc.2021.0136": {
       "brief_date": "2026-07-19",
       "first_seen_at": "2026-07-19T04:06:02Z",
@@ -149,6 +167,12 @@
       "first_seen_at": "2026-07-20T03:04:35Z",
       "source": "Marketing Science",
       "title": "Consumer Fairness Concerns and Dynamic Pricing in a Channel"
+    },
+    "doi:10.1287/mksc.2023.0214": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Marketing Science",
+      "title": "Regional Poverty Alleviation Partnership and E-Commerce Trade"
     },
     "doi:10.1287/mksc.2024.0879": {
       "brief_date": "2026-07-19",
@@ -192,11 +216,35 @@
       "source": "Management Science",
       "title": "Capacity Sharing Between Competitors"
     },
+    "doi:10.1287/mnsc.2020.3680": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Management Science",
+      "title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity"
+    },
+    "doi:10.1287/mnsc.2021.3986": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Management Science",
+      "title": "Knowledge Accumulation, Privacy, and Growth in a Data Economy"
+    },
     "doi:10.1287/mnsc.2021.4071": {
       "brief_date": "2026-07-20",
       "first_seen_at": "2026-07-20T03:04:35Z",
       "source": "Management Science",
       "title": "Meta Dynamic Pricing: Transfer Learning Across Experiments"
+    },
+    "doi:10.1287/mnsc.2021.4171": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Management Science",
+      "title": "Dynamic Pricing and Inventory Control with Fixed Ordering Cost and Incomplete Demand Information"
+    },
+    "doi:10.1287/mnsc.2022.02505": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Management Science",
+      "title": "Blockchain Adoption in a Supply Chain with Manufacturer Market Power"
     },
     "doi:10.1287/mnsc.2022.4387": {
       "brief_date": "2026-07-21",
@@ -209,6 +257,12 @@
       "first_seen_at": "2026-07-21T03:58:51Z",
       "source": "Management Science",
       "title": "Privacy Rights and Data Security: GDPR and Personal Data Markets"
+    },
+    "doi:10.1287/mnsc.2023.4859": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "Management Science",
+      "title": "Optimal Policies for Dynamic Pricing and Inventory Control with Nonparametric Censored Demands"
     },
     "doi:10.1509/jmkr.38.2.225.18838": {
       "brief_date": "2026-07-19",
@@ -245,6 +299,12 @@
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "SSRN",
       "title": "Netflix Italia and the Decision of the Court of Rome: Evaluating the \"Justified Reason\" Requirement as a Condition for the Enforceability of Price Variation Clauses in Digital Adhesion Contracts and Lessons for Nigeria"
+    },
+    "doi:10.2139/ssrn.7157999": {
+      "brief_date": "2026-07-22",
+      "first_seen_at": "2026-07-22T03:59:58Z",
+      "source": "SSRN",
+      "title": "Multimodal Recommendation System for Accurate Predictions Using Vision–Language Transformer with Graph-Aware Attention"
     },
     "doi:10.3386/w35467": {
       "brief_date": "2026-07-20",
