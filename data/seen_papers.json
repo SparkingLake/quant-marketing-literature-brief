@@ -6,6 +6,12 @@
       "source": "Journal of Political Economy",
       "title": "Bank Market Power and Central Bank Digital Currency: Theory and Quantitative Assessment"
     },
+    "doi:10.1086/739824": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "Journal of Political Economy",
+      "title": "US Public Debt and Safe Asset Market Power"
+    },
     "doi:10.1093/restud/rdac073": {
       "brief_date": "2026-07-20",
       "first_seen_at": "2026-07-20T03:04:35Z",
@@ -29,6 +35,12 @@
       "first_seen_at": "2026-07-22T03:59:58Z",
       "source": "The Review of Economic Studies",
       "title": "Market Power in Coal Shipping and Implications for U.S. Climate Policy"
+    },
+    "doi:10.1093/restud/rdag074": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "The Review of Economic Studies",
+      "title": "A Model of the Data Economy"
     },
     "doi:10.1177/00222429221119086": {
       "brief_date": "2026-07-22",
@@ -65,6 +77,12 @@
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "American Economic Review",
       "title": "Data, Competition, and Digital Platforms"
+    },
+    "doi:10.1257/aer.20230490": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "American Economic Review",
+      "title": "Labor Market Power, Self-Employment, and Development"
     },
     "doi:10.1287/mksc.1030.0044": {
       "brief_date": "2026-07-19",
@@ -222,6 +240,12 @@
       "source": "Management Science",
       "title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity"
     },
+    "doi:10.1287/mnsc.2020.3873": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "Management Science",
+      "title": "Sponsored Content Advertising in a Two-Sided Market"
+    },
     "doi:10.1287/mnsc.2021.3986": {
       "brief_date": "2026-07-22",
       "first_seen_at": "2026-07-22T03:59:58Z",
@@ -240,11 +264,23 @@
       "source": "Management Science",
       "title": "Dynamic Pricing and Inventory Control with Fixed Ordering Cost and Incomplete Demand Information"
     },
+    "doi:10.1287/mnsc.2021.4275": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "Management Science",
+      "title": "Optimal Picking Policies in E-Commerce Warehouses"
+    },
     "doi:10.1287/mnsc.2022.02505": {
       "brief_date": "2026-07-22",
       "first_seen_at": "2026-07-22T03:59:58Z",
       "source": "Management Science",
       "title": "Blockchain Adoption in a Supply Chain with Manufacturer Market Power"
+    },
+    "doi:10.1287/mnsc.2022.4302": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "Management Science",
+      "title": "Two-Sided Platform Competition in a Sharing Economy"
     },
     "doi:10.1287/mnsc.2022.4387": {
       "brief_date": "2026-07-21",
@@ -257,6 +293,12 @@
       "first_seen_at": "2026-07-21T03:58:51Z",
       "source": "Management Science",
       "title": "Privacy Rights and Data Security: GDPR and Personal Data Markets"
+    },
+    "doi:10.1287/mnsc.2023.4675": {
+      "brief_date": "2026-07-23",
+      "first_seen_at": "2026-07-23T03:57:45Z",
+      "source": "Management Science",
+      "title": "Dog Eat Dog: Balancing Network Effects and Differentiation in a Digital Platform Merger"
     },
     "doi:10.1287/mnsc.2023.4859": {
       "brief_date": "2026-07-22",
