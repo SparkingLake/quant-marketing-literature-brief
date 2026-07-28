@@ -6,6 +6,12 @@
       "source": "Journal of Political Economy",
       "title": "Bank Market Power and Central Bank Digital Currency: Theory and Quantitative Assessment"
     },
+    "doi:10.1086/726906": {
+      "brief_date": "2026-07-28",
+      "first_seen_at": "2026-07-28T03:50:08Z",
+      "source": "Journal of Political Economy",
+      "title": "Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market"
+    },
     "doi:10.1086/739824": {
       "brief_date": "2026-07-23",
       "first_seen_at": "2026-07-23T03:57:45Z",
@@ -252,6 +258,12 @@
       "source": "Management Science",
       "title": "Startup Accelerators, Information Asymmetry, and Corporate Venture Capital Investments"
     },
+    "doi:10.1287/mnsc.2020.3659": {
+      "brief_date": "2026-07-28",
+      "first_seen_at": "2026-07-28T03:50:08Z",
+      "source": "Management Science",
+      "title": "Market Design, Human Behavior, and Management"
+    },
     "doi:10.1287/mnsc.2020.3680": {
       "brief_date": "2026-07-22",
       "first_seen_at": "2026-07-22T03:59:58Z",
@@ -324,6 +336,12 @@
       "source": "Management Science",
       "title": "Dynamic Pricing with Online Reviews"
     },
+    "doi:10.1287/mnsc.2022.4558": {
+      "brief_date": "2026-07-28",
+      "first_seen_at": "2026-07-28T03:50:08Z",
+      "source": "Management Science",
+      "title": "Online Learning via Offline Greedy Algorithms: Applications in Market Design and Optimization"
+    },
     "doi:10.1287/mnsc.2022.4614": {
       "brief_date": "2026-07-21",
       "first_seen_at": "2026-07-21T03:58:51Z",
@@ -336,11 +354,23 @@
       "source": "Management Science",
       "title": "The Value of Information Design in Supply Chain Management"
     },
+    "doi:10.1287/mnsc.2023.03956": {
+      "brief_date": "2026-07-28",
+      "first_seen_at": "2026-07-28T03:50:08Z",
+      "source": "Management Science",
+      "title": "Utility Fairness in Contextual Dynamic Pricing with Demand Learning"
+    },
     "doi:10.1287/mnsc.2023.4675": {
       "brief_date": "2026-07-23",
       "first_seen_at": "2026-07-23T03:57:45Z",
       "source": "Management Science",
       "title": "Dog Eat Dog: Balancing Network Effects and Differentiation in a Digital Platform Merger"
+    },
+    "doi:10.1287/mnsc.2023.4795": {
+      "brief_date": "2026-07-28",
+      "first_seen_at": "2026-07-28T03:50:08Z",
+      "source": "Management Science",
+      "title": "Creative Destruction? Impact of E-Commerce on the Retail Sector"
     },
     "doi:10.1287/mnsc.2023.4859": {
       "brief_date": "2026-07-22",
@@ -413,6 +443,12 @@
       "first_seen_at": "2026-07-22T03:59:58Z",
       "source": "SSRN",
       "title": "Multimodal Recommendation System for Accurate Predictions Using Vision–Language Transformer with Graph-Aware Attention"
+    },
+    "doi:10.2139/ssrn.7194686": {
+      "brief_date": "2026-07-28",
+      "first_seen_at": "2026-07-28T03:50:08Z",
+      "source": "SSRN",
+      "title": "The Macroeconomics of Firm Structure and Market Power"
     },
     "doi:10.3386/w35467": {
       "brief_date": "2026-07-20",
