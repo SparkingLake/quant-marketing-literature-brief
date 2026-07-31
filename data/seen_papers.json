@@ -6,6 +6,12 @@
       "source": "Journal of Political Economy",
       "title": "Bank Market Power and Central Bank Digital Currency: Theory and Quantitative Assessment"
     },
+    "doi:10.1086/724843": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "Journal of Political Economy",
+      "title": "Informed Information Design"
+    },
     "doi:10.1086/726906": {
       "brief_date": "2026-07-28",
       "first_seen_at": "2026-07-28T03:50:08Z",
@@ -276,6 +282,12 @@
       "source": "Management Science",
       "title": "A High-Dimensional Choice Model for Online Retailing"
     },
+    "doi:10.1287/mnsc.2020.03042": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "Management Science",
+      "title": "Intraconsumer Price Discrimination with Credit Refund Policies"
+    },
     "doi:10.1287/mnsc.2020.03494": {
       "brief_date": "2026-07-25",
       "first_seen_at": "2026-07-25T03:52:55Z",
@@ -366,6 +378,12 @@
       "source": "Management Science",
       "title": "Dynamic Pricing with Online Reviews"
     },
+    "doi:10.1287/mnsc.2022.4548": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "Management Science",
+      "title": "Information Design for Congested Social Services: Optimal Need-Based Persuasion"
+    },
     "doi:10.1287/mnsc.2022.4558": {
       "brief_date": "2026-07-28",
       "first_seen_at": "2026-07-28T03:50:08Z",
@@ -419,6 +437,12 @@
       "first_seen_at": "2026-07-25T03:52:55Z",
       "source": "Management Science",
       "title": "Does Sponsored Search Advertising Augment Organic Search? Evidence from an E-Commerce Platform"
+    },
+    "doi:10.1287/mnsc.2024.07999": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "Management Science",
+      "title": "Information Asymmetry at Debt Rollover and Startup Loans"
     },
     "doi:10.1509/jmkr.38.2.225.18838": {
       "brief_date": "2026-07-19",
@@ -497,6 +521,30 @@
       "first_seen_at": "2026-07-29T03:53:58Z",
       "source": "SSRN",
       "title": "Modeling Electric Air Taxi Mode Choice and Preferences Across Behavioral Segments: A Latent Class Hybrid Choice Model"
+    },
+    "doi:10.2139/ssrn.7208559": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "SSRN",
+      "title": "Graduated warning labels against dark patterns: a cross-domain study of behavioral resistance and trust in mobile e-commerce and financial apps"
+    },
+    "doi:10.3386/w29175": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "NBER Working Paper",
+      "title": "Collusion, Mergers, and Related Antitrust Issues"
+    },
+    "doi:10.3386/w29229": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "NBER Working Paper",
+      "title": "An Industrial Organization Perspective on Productivity"
+    },
+    "doi:10.3386/w31123": {
+      "brief_date": "2026-07-31",
+      "first_seen_at": "2026-07-31T04:04:42Z",
+      "source": "NBER Working Paper",
+      "title": "Merger Effects and Antitrust Enforcement: Evidence from US Consumer Packaged Goods"
     },
     "doi:10.3386/w35467": {
       "brief_date": "2026-07-20",
