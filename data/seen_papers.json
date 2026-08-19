@@ -444,6 +444,12 @@
       "source": "Management Science",
       "title": "Dynamic Pricing and Inventory Control with Fixed Ordering Cost and Incomplete Demand Information"
     },
+    "doi:10.1287/mnsc.2021.4198": {
+      "brief_date": "2026-08-19",
+      "first_seen_at": "2026-08-19T02:05:40Z",
+      "source": "Management Science",
+      "title": "The Information Asymmetry Effects of Expanded Disclosures About Derivative and Hedging Activities"
+    },
     "doi:10.1287/mnsc.2021.4275": {
       "brief_date": "2026-07-23",
       "first_seen_at": "2026-07-23T03:57:45Z",
@@ -485,6 +491,12 @@
       "first_seen_at": "2026-07-21T03:58:51Z",
       "source": "Management Science",
       "title": "Dynamic Pricing with Online Reviews"
+    },
+    "doi:10.1287/mnsc.2022.4408": {
+      "brief_date": "2026-08-19",
+      "first_seen_at": "2026-08-19T02:05:40Z",
+      "source": "Management Science",
+      "title": "The Growth of Information Asymmetry Between Earnings Announcements and Its Implications for Reporting Frequency"
     },
     "doi:10.1287/mnsc.2022.4548": {
       "brief_date": "2026-07-31",
@@ -581,6 +593,12 @@
       "first_seen_at": "2026-07-31T04:04:42Z",
       "source": "Management Science",
       "title": "Information Asymmetry at Debt Rollover and Startup Loans"
+    },
+    "doi:10.1287/mnsc.2024.08526": {
+      "brief_date": "2026-08-19",
+      "first_seen_at": "2026-08-19T02:05:40Z",
+      "source": "Management Science",
+      "title": "How Important Is Internal Information Asymmetry for Firm-Level Productivity?"
     },
     "doi:10.1509/jmkr.38.2.225.18838": {
       "brief_date": "2026-07-19",
