@@ -426,6 +426,12 @@
       "source": "Management Science",
       "title": "Sponsored Content Advertising in a Two-Sided Market"
     },
+    "doi:10.1287/mnsc.2021.01062": {
+      "brief_date": "2026-08-21",
+      "first_seen_at": "2026-08-21T02:10:50Z",
+      "source": "Management Science",
+      "title": "Corporate Social Responsibility and Consumer Choice: Lessons from the Milk Boycott"
+    },
     "doi:10.1287/mnsc.2021.3986": {
       "brief_date": "2026-07-22",
       "first_seen_at": "2026-07-22T03:59:58Z",
@@ -582,6 +588,12 @@
       "source": "Management Science",
       "title": "Optimal Policies for Dynamic Pricing and Inventory Control with Nonparametric Censored Demands"
     },
+    "doi:10.1287/mnsc.2023.4893": {
+      "brief_date": "2026-08-21",
+      "first_seen_at": "2026-08-21T02:10:50Z",
+      "source": "Management Science",
+      "title": "Machine Learning for Demand Estimation in Long Tail Markets"
+    },
     "doi:10.1287/mnsc.2023.4917": {
       "brief_date": "2026-07-24",
       "first_seen_at": "2026-07-24T03:56:38Z",
@@ -641,6 +653,12 @@
       "first_seen_at": "2026-08-01T04:03:36Z",
       "source": "SSRN",
       "title": "E-commerce and the Digitalization of Retail"
+    },
+    "doi:10.2139/ssrn.4891482": {
+      "brief_date": "2026-08-21",
+      "first_seen_at": "2026-08-21T02:10:50Z",
+      "source": "SSRN",
+      "title": "The Challenges of Deploying an Algorithmic Pricing Tool: Evidence from Airbnb"
     },
     "doi:10.2139/ssrn.4992500": {
       "brief_date": "2026-07-26",
