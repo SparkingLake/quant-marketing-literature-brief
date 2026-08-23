@@ -540,6 +540,12 @@
       "source": "Management Science",
       "title": "Online Learning via Offline Greedy Algorithms: Applications in Market Design and Optimization"
     },
+    "doi:10.1287/mnsc.2022.4606": {
+      "brief_date": "2026-08-23",
+      "first_seen_at": "2026-08-23T02:12:19Z",
+      "source": "Management Science",
+      "title": "Contracting for Product Support Under Information Asymmetry"
+    },
     "doi:10.1287/mnsc.2022.4613": {
       "brief_date": "2026-08-03",
       "first_seen_at": "2026-08-03T04:19:07Z",
@@ -779,6 +785,12 @@
       "first_seen_at": "2026-08-15T02:02:11Z",
       "source": "SSRN",
       "title": "From Anomaly Detection to Community Triage: A Two-Stage Framework for Online Platform Monitoring"
+    },
+    "doi:10.2139/ssrn.7308664": {
+      "brief_date": "2026-08-23",
+      "first_seen_at": "2026-08-23T02:12:19Z",
+      "source": "SSRN",
+      "title": "Redistribution Through Market Power: Monetary and Fiscal Transmission"
     },
     "doi:10.3386/w29175": {
       "brief_date": "2026-07-31",
