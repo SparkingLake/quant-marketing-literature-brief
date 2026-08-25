@@ -480,6 +480,12 @@
       "source": "Management Science",
       "title": "The Information Asymmetry Effects of Expanded Disclosures About Derivative and Hedging Activities"
     },
+    "doi:10.1287/mnsc.2021.4261": {
+      "brief_date": "2026-08-25",
+      "first_seen_at": "2026-08-25T02:06:23Z",
+      "source": "Management Science",
+      "title": "Demand Estimation Using Managerial Responses to Automated Price Recommendations"
+    },
     "doi:10.1287/mnsc.2021.4275": {
       "brief_date": "2026-07-23",
       "first_seen_at": "2026-07-23T03:57:45Z",
@@ -678,6 +684,12 @@
       "source": "SSRN",
       "title": "E-commerce and the Digitalization of Retail"
     },
+    "doi:10.2139/ssrn.4845477": {
+      "brief_date": "2026-08-25",
+      "first_seen_at": "2026-08-25T02:06:23Z",
+      "source": "SSRN",
+      "title": "Understanding Farmed Salmon Imports and E-Commerce Consumer Satisfaction in China: A Text Mining Approach"
+    },
     "doi:10.2139/ssrn.4891482": {
       "brief_date": "2026-08-21",
       "first_seen_at": "2026-08-21T02:10:50Z",
@@ -815,6 +827,12 @@
       "first_seen_at": "2026-07-31T04:04:42Z",
       "source": "NBER Working Paper",
       "title": "Merger Effects and Antitrust Enforcement: Evidence from US Consumer Packaged Goods"
+    },
+    "doi:10.3386/w32270": {
+      "brief_date": "2026-08-25",
+      "first_seen_at": "2026-08-25T02:06:23Z",
+      "source": "NBER Working Paper",
+      "title": "Market Power in Artificial Intelligence"
     },
     "doi:10.3386/w33642": {
       "brief_date": "2026-08-01",
