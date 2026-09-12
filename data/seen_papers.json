@@ -102,6 +102,12 @@
       "source": "The Review of Economic Studies",
       "title": "Market Power and Price Informativeness"
     },
+    "doi:10.1093/restud/rdae087": {
+      "brief_date": "2026-09-12",
+      "first_seen_at": "2026-09-12T04:58:41Z",
+      "source": "The Review of Economic Studies",
+      "title": "How Do Digital Advertising Auctions Impact Product Prices?"
+    },
     "doi:10.1093/restud/rdag074": {
       "brief_date": "2026-07-23",
       "first_seen_at": "2026-07-23T03:57:45Z",
@@ -384,6 +390,12 @@
       "source": "Marketing Science",
       "title": "Frontiers: Recommending What to Search: Sales Volume and Consumption Diversity Effects of a Query Recommender System"
     },
+    "doi:10.1287/mksc.2024.1130": {
+      "brief_date": "2026-09-12",
+      "first_seen_at": "2026-09-12T04:58:41Z",
+      "source": "Marketing Science",
+      "title": "Leveraging Generative Artificial Intelligence to Create Visual Content in Digital Advertising"
+    },
     "doi:10.1287/mksc.3.4.288": {
       "brief_date": "2026-07-18",
       "first_seen_at": "2026-07-18T12:18:36Z",
@@ -575,6 +587,12 @@
       "first_seen_at": "2026-08-08T02:32:26Z",
       "source": "Management Science",
       "title": "Endogenous Merger Decisions Among Competitors: Impact of Limited Capacity and Loyal Segments"
+    },
+    "doi:10.1287/mnsc.2022.02462": {
+      "brief_date": "2026-09-12",
+      "first_seen_at": "2026-09-12T04:58:41Z",
+      "source": "Management Science",
+      "title": "Algorithmic Pricing, Price Wars, and Tacit Collusion: Evidence from E-Commerce"
     },
     "doi:10.1287/mnsc.2022.02505": {
       "brief_date": "2026-07-22",
@@ -1043,6 +1061,12 @@
       "first_seen_at": "2026-08-27T10:28:15Z",
       "source": "NBER Working Paper",
       "title": "The Coasean Singularity? Demand, Supply, and Market Design with AI Agents"
+    },
+    "doi:10.3386/w34972": {
+      "brief_date": "2026-09-12",
+      "first_seen_at": "2026-09-12T04:58:41Z",
+      "source": "NBER Working Paper",
+      "title": "Reserve Demand Estimation with Minimal Theory"
     },
     "doi:10.3386/w35467": {
       "brief_date": "2026-07-20",
