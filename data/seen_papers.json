@@ -396,6 +396,12 @@
       "source": "Marketing Science",
       "title": "Bargaining and Network Effects in Two-Sided Platforms: Evidence from Online Healthcare"
     },
+    "doi:10.1287/mksc.2024.0964": {
+      "brief_date": "2026-09-19",
+      "first_seen_at": "2026-09-19T04:59:16Z",
+      "source": "Marketing Science",
+      "title": "The Challenges of Deploying an Algorithmic Pricing Tool: Evidence from Airbnb"
+    },
     "doi:10.1287/mksc.2024.1084": {
       "brief_date": "2026-07-25",
       "first_seen_at": "2026-07-25T03:52:55Z",
@@ -965,6 +971,12 @@
       "first_seen_at": "2026-07-29T03:53:58Z",
       "source": "SSRN",
       "title": "Modeling Electric Air Taxi Mode Choice and Preferences Across Behavioral Segments: A Latent Class Hybrid Choice Model"
+    },
+    "doi:10.2139/ssrn.7207038": {
+      "brief_date": "2026-09-19",
+      "first_seen_at": "2026-09-19T04:59:16Z",
+      "source": "SSRN",
+      "title": "Derivatives on Compute: Pricing Theory and Market Design for AI Infrastructure"
     },
     "doi:10.2139/ssrn.7208559": {
       "brief_date": "2026-07-31",
