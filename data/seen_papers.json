@@ -1104,6 +1104,12 @@
       "source": "NBER Working Paper",
       "title": "Merger Effects and Antitrust Enforcement: Evidence from US Consumer Packaged Goods"
     },
+    "doi:10.3386/w31253": {
+      "brief_date": "2026-09-22",
+      "first_seen_at": "2026-09-22T05:20:19Z",
+      "source": "NBER Working Paper",
+      "title": "Two-Sided Market Power in Firm-to-Firm Trade"
+    },
     "doi:10.3386/w32270": {
       "brief_date": "2026-08-25",
       "first_seen_at": "2026-08-25T02:06:23Z",
@@ -1175,6 +1181,12 @@
       "first_seen_at": "2026-08-27T10:28:15Z",
       "source": "NBER Working Paper",
       "title": "Labor Market Power with Worker and Firm Heterogeneity"
+    },
+    "doi:10.3386/w35787": {
+      "brief_date": "2026-09-22",
+      "first_seen_at": "2026-09-22T05:20:19Z",
+      "source": "NBER Working Paper",
+      "title": "Using Policy Functions to Estimate Merger Impacts: An Application to JetBlue-Spirit"
     }
   }
 }
