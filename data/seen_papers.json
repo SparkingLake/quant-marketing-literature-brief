@@ -24,6 +24,12 @@
       "source": "Journal of Political Economy",
       "title": "Estimating Discrete Games with Many Firms and Many Decisions: An Application to Merger and Product Variety"
     },
+    "doi:10.1086/736214": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "Journal of Political Economy",
+      "title": "Optimal Information Design of Online Marketplaces with Return Rights"
+    },
     "doi:10.1086/739824": {
       "brief_date": "2026-07-23",
       "first_seen_at": "2026-07-23T03:57:45Z",
@@ -149,6 +155,12 @@
       "first_seen_at": "2026-07-18T12:18:36Z",
       "source": "Journal of Marketing",
       "title": "Retailer Differentiation in Social Media: An Investigation of Firm-Generated Content on Twitter"
+    },
+    "doi:10.1177/00222429261496232": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "Journal of Marketing",
+      "title": "EXPRESS: The Double-Edged Offline Touchpoint: How Self-Pickup Stations Reshape Pure-Play E-Commerce Transactions"
     },
     "doi:10.1177/00222437211034438": {
       "brief_date": "2026-08-03",
@@ -864,11 +876,29 @@
       "source": "Journal of Marketing Research",
       "title": "Customer Satisfaction Heterogeneity and Shareholder Value"
     },
+    "doi:10.2139/ssrn.4042629": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "SSRN",
+      "title": "The Platform Economy in Europe: Results from the Second ETUI Internet and Platform Work Survey (IPWS)"
+    },
+    "doi:10.2139/ssrn.4435831": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "SSRN",
+      "title": "Algorithmic Pricing and Consumer Sensitivity to Price Variability"
+    },
     "doi:10.2139/ssrn.4451495": {
       "brief_date": "2026-09-02",
       "first_seen_at": "2026-09-02T05:01:37Z",
       "source": "SSRN",
       "title": "Inventory and Financing Decisions in Cross-Border E-Commerce: the Financing and Information Roles of Bonded Warehouse"
+    },
+    "doi:10.2139/ssrn.4460475": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "SSRN",
+      "title": "Controlling Epidemics: The Value of Information Design"
     },
     "doi:10.2139/ssrn.4554232": {
       "brief_date": "2026-09-02",
@@ -1140,6 +1170,12 @@
       "source": "NBER Working Paper",
       "title": "Market Design"
     },
+    "doi:10.3386/w30326": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "NBER Working Paper",
+      "title": "The Political Economy of the Decline of Antitrust Enforcement in the United States"
+    },
     "doi:10.3386/w30365": {
       "brief_date": "2026-09-17",
       "first_seen_at": "2026-09-17T05:18:52Z",
@@ -1241,6 +1277,12 @@
       "first_seen_at": "2026-09-22T05:20:19Z",
       "source": "NBER Working Paper",
       "title": "Using Policy Functions to Estimate Merger Impacts: An Application to JetBlue-Spirit"
+    },
+    "doi:10.3386/w35829": {
+      "brief_date": "2026-09-29",
+      "first_seen_at": "2026-09-29T06:09:09Z",
+      "source": "NBER Working Paper",
+      "title": "Importers, Market Power and Optimal Tariffs"
     }
   }
 }
