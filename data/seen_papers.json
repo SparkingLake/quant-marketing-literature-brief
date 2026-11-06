@@ -600,6 +600,12 @@
       "source": "Management Science",
       "title": "Compatibility and Information Asymmetry in Online Matching Platforms"
     },
+    "doi:10.1287/mnsc.2021.3967": {
+      "brief_date": "2026-11-06",
+      "first_seen_at": "2026-11-06T07:20:08Z",
+      "source": "Management Science",
+      "title": "How Market Power Affects Dynamic Pricing: Evidence from Inventory Fluctuations at Car Dealerships"
+    },
     "doi:10.1287/mnsc.2021.3986": {
       "brief_date": "2026-07-22",
       "first_seen_at": "2026-07-22T03:59:58Z",
@@ -1073,6 +1079,12 @@
       "first_seen_at": "2026-10-29T06:24:19Z",
       "source": "SSRN",
       "title": "Information Design with Competing Receivers"
+    },
+    "doi:10.2139/ssrn.5186709": {
+      "brief_date": "2026-11-06",
+      "first_seen_at": "2026-11-06T07:20:08Z",
+      "source": "SSRN",
+      "title": "Dynamic Pricing in High-Speed Railways Using Multi-Agent Reinforcement Learning"
     },
     "doi:10.2139/ssrn.5188089": {
       "brief_date": "2026-09-02",
